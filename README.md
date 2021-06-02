@@ -10,7 +10,7 @@ pip install Flask
              or
 pip3 install Flask
 ```
-- `MongoDB`
+- [`MongoDB`](https://www.mongodb.com/)
 - `Electron`
 
 ## 기술 스택(Tech Stack)

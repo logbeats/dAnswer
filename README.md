@@ -5,3 +5,12 @@
 
 ## 오픈소스(OpenSource)
 [`Dropzone.js`](https://www.dropzonejs.com/)
+
+## 설치(Installation)
+```
+$ git clone https://github.com/logbeats/dAnswer.git
+$ cd dAnswer
+$ python app.py
+```
+
+Now Go to http://127.0.0.1:5000/

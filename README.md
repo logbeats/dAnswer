@@ -11,9 +11,10 @@
 $ pip install Flask
 $ git clone https://github.com/logbeats/dAnswer.git
 $ cd dAnswer
+```
+## 사용법(Usage)
+```
 $ python app.py
-```
-```
 $ flask run
   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```

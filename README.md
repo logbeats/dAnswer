@@ -9,8 +9,10 @@
 ## 설치(Installation)
 ```
 $ git clone https://github.com/logbeats/dAnswer.git
+$ pip install Flask
 $ cd dAnswer
-$ python app.py
 ```
 
-Now Go to http://127.0.0.1:5000/
+$ flask run
+$ python app.py
+  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

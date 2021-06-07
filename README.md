@@ -12,7 +12,8 @@ $ git clone https://github.com/logbeats/dAnswer.git
 $ pip install Flask
 $ cd dAnswer
 ```
-
+```
 $ flask run
 $ python app.py
   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```

@@ -4,7 +4,15 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 app.config['UPLOADED_PATH'] = os.path.join(app.root_path, 'upload')
-print(os.path.join(app.root_path, 'upload'))
+
+def dirCheck(dirPath):
+    if not os.path.isdir(dirPath):
+        try:
+            os.mkdir(dirPath)
+        except FileExistsError:
+                pass
+
+dirCheck(app.config['UPLOADED_PATH'])
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():

@@ -14,4 +14,7 @@ def upload_file():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    if len(os.sys.argv) > 1:
+        if os.sys.argv[1] == 'debug':
+            app.debug = True
+    app.run('0.0.0.0', port=5000, threaded=True)

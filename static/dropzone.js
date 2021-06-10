@@ -130,7 +130,7 @@
       params: {},
       clickable: true,
       ignoreHiddenFiles: true,
-      acceptedFiles: null,
+      acceptedFiles: ".zip,.tar",
       acceptedMimeTypes: null,
       autoProcessQueue: true,
       autoQueue: true,
